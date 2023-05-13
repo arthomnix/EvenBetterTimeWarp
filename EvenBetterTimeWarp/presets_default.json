@@ -1,0 +1,152 @@
+{
+  "TimeWarpLevels": [
+    "1",
+    "2",
+    "4",
+    "10",
+    "50",
+    "100",
+    "1000",
+    "10000",
+    "100000",
+    "1000000",
+    "10000000"
+  ],
+  "PhysicsWarpLevels": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "Presets": {
+    "Slow": {
+      "Item1": [
+        {
+          "TimeScaleFactor": 0.1,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 0.2,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 0.5,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 0.75,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 1.0,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 2.0,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 4.0,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 10.0,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 25.0,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 50.0,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 100.0,
+          "AdditionalAltitudeRequirement": 0.0
+        }
+      ],
+      "Item2": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    "Fast": {
+      "Item1": [
+        {
+          "TimeScaleFactor": 1,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 10,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 100,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 1000,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 10000,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 100000,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 1000000,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 10000000,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 100000000,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 1000000000,
+          "AdditionalAltitudeRequirement": 0.0
+        },
+        {
+          "TimeScaleFactor": 10000000000,
+          "AdditionalAltitudeRequirement": 0.0
+        }
+      ],
+      "Item2": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  }
+}
