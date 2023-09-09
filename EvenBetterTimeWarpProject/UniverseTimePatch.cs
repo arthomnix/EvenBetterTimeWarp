@@ -3,10 +3,10 @@ using KSP.Sim.impl;
 
 namespace EvenBetterTimeWarp;
 
-[HarmonyPatch(typeof(UniverseTime))]
+[HarmonyPatch(typeof(UniverseModel))]
 public class UniverseTimePatch
 {
-    [HarmonyPatch("KSP.Sim.IUniverseTimeCommandEntry.SetTimeScale")]
+    [HarmonyPatch(nameof(UniverseModel.SetTimeScale))]
     [HarmonyTranspiler]
     private static IEnumerable<CodeInstruction> SetTimeScaleTranspiler(IEnumerable<CodeInstruction> instructions)
     {
