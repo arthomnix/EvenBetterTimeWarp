@@ -4,7 +4,7 @@ using KSP.Sim.impl;
 namespace EvenBetterTimeWarp;
 
 [HarmonyPatch(typeof(UniverseModel))]
-public class UniverseTimePatch
+public class UniverseModelPatch
 {
     [HarmonyPatch(nameof(UniverseModel.SetTimeScale))]
     [HarmonyTranspiler]
